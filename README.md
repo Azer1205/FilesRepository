@@ -7,6 +7,7 @@
 - [《Web性能权威指南》](./Books/Http/Web性能权威指南.pdf)
 
 ### JavaScript:
+- [《Hello 算法（JavaScript）》](./Books/JavaScripts/Hello%20算法（JavaScript）.pdf)
 - [《基于MVC的JavaScript Web富应用开发》](./Books/JavaScripts/基于MVC的JavaScriptWeb富应用开发.pdf)
 - [《精通JavaScript》](./Books/JavaScript/精通JavaScript.pdf)
 - [《你不知道的JavaScript(上卷)》](./Books/JavaScript/你不知道的JavaScript(上卷).pdf)
@@ -39,15 +40,26 @@
 - [《Node与Express开发》](./Books/Node/Node与Express开发.pdf)
 
 ### Python:
-- [《流畅的python》](./Books/Python/流畅的python.pdf)
-- [《PythonCookbook（第3版）》](./Books/Python/PythonCookbook（第3版）.pdf)
-- [《Python3网络爬虫开发实战——(崔庆才)》](./Books/Python/Python3%20%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%20%E7%AC%AC2%E7%89%88%20(%E5%B4%94%E5%BA%86%E6%89%8D).pdf)
 - [《Python编程：从入门到实践》](./Books/Python/Python编程：从入门到实践.pdf)
+- [《流畅的python》](./Books/Python/流畅的python.pdf)
 - [《Python工匠：案例、技巧与工程实践》](./Books/Python/Python工匠：案例、技巧与工程实践.pdf)
+- [《深度学习入门：基于Python的理论与实现版》](./Books/Python/深度学习入门：基于Python的理论与实现版.pdf)
+- [《深度学习入门2自制框架》](./Books/Python/深度学习入门2自制框架.pdf)
+- [《深度学习进阶：自然语言处理》](./Books/Python/深度学习进阶：自然语言处理.pdf)
+- [《Python深度学习》](./Books/Python/Python深度学习.pdf)
+- [《Python机器学习基础教程》](./Books/Python/Python机器学习基础教程.pdf)
+- [《机器学习实战》](./Books/Python/机器学习实战.pdf)
+- [《深入浅出神经网络与深度学习》](./Books/Python/深入浅出神经网络与深度学习.pdf)
+- [《算法图解》](./Books/Python/算法图解.pdf)
+- [《Hello 算法（Python）》](./Books/Python/Hello%20算法（Python）.pdf)
+- [《数据结构与算法 Python语言描述》](./Books/Python/数据结构与算法%20Python语言描述.pdf)
+- [《Python3网络爬虫开发实战——(崔庆才)》](./Books/Python/Python3%20网络爬虫开发实战%20第2版%20(崔庆才).pdf)
+- [《Excel Python：飞速搞定数据分析与处理》](./Books/Python/Excel%20Python：飞速搞定数据分析与处理.pdf)
+- [《Python源码剖析》](./Books/Python/Python源码剖析.pdf)
 - [《python核心编程》](./Books/Python/python核心编程.pdf)
 - [《Python学习手册（第三版）》](./Books/Python/Python学习手册（第三版）.pdf)
-- [《Python源码剖析》](./Books/Python/Python源码剖析.pdf)
 - [《ThinkPython》](./Books/Python/ThinkPython.pdf)
+- [《PythonCookbook（第3版）》](./Books/Python/PythonCookbook（第3版）.pdf)
 
 ### Others:
 - [《程序员的职业素养》](./Books/Others/程序员的职业素养.pdf)
