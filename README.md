@@ -109,9 +109,9 @@
 
 
 ### 产品：
-- [《成为AI产品经理.epub》](./Books/Python/成为AI产品经理.epub)
-- [《人人都是产品经理.epub》](./Books/Python/人人都是产品经理.epub)
-- [《苏杰的产品创新课.epub》](./Books/Python/苏杰的产品创新课.epub)
+- [《成为AI产品经理.epub》](./Books/产品/成为AI产品经理.epub)
+- [《人人都是产品经理.epub》](./Books/产品/人人都是产品经理.epub)
+- [《苏杰的产品创新课.epub》](./Books/产品/苏杰的产品创新课.epub)
 
 
 
