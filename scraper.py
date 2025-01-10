@@ -2,8 +2,11 @@ from selenium import webdriver
 import re
 import chardet
 
-base = 'https://bqg123.net'
-first_link = '/v3_uni_1231151?1#/v3/59162794/438626/793.html'
+BASE = 'https://bqg123.net'
+FIRST_LINK = '/v3_uni_0110101?2#/v3/27542350/403316/994.html'
+FILE_NAME = '蛊真人.txt'
+
+ALL_CHAPTERS = []
 
 # 配置无头模式
 option = webdriver.ChromeOptions()
@@ -17,7 +20,7 @@ browser = webdriver.Chrome(options=option)
 def scrape_page(link):
   try:
     if not link.startswith('http'):
-      browser.get(base + link)
+      browser.get(BASE + link)
     else:
       browser.get(link)
   except:
@@ -34,26 +37,30 @@ def analyze_page():
   next_link = browser.find_element('id', 'pb_next').get_attribute('href')
   return title.text, content.text, next_link
 
-def write_to_file(title, txt):
-  if '章' in title:
-    # parts = title.split(' ')
-    # content = txt.replace(parts[0] + parts[1], '')
-    context = txt + '\n\n\n'
+def write_to_file(title, txt, link):
+  print('==' + title + '=================')
+  if title in ALL_CHAPTERS:
+    print('重复章节')
+    return
+  ALL_CHAPTERS.append(title)
+  if '序' in title or '节' in title:
+    context = txt + '\n\n'
     # 导出为 text 文件
-    with open('左道倾天.txt', 'a+', encoding='utf-8') as f:
+    with open(FILE_NAME, 'a+', encoding='utf-8') as f:
       f.write(context)
+  else:
+    print(link)
 
 
 if __name__ == '__main__':
-  scrape_page(first_link)
+  scrape_page(FIRST_LINK)
   title, txt, next_link = analyze_page()
-  print('==' + title + '=================')
-  write_to_file(title, txt)
+  write_to_file(title, txt, next_link)
   while next_link:
+    current_link = browser.current_url
     scrape_page(next_link)
     title, txt, next_link = analyze_page()
-    print('==' + title + '=================')
-    write_to_file(title, txt)
+    write_to_file(title, txt, current_link)
   
 
 
